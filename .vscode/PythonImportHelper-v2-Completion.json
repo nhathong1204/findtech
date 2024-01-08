@@ -1968,7 +1968,7 @@
         "kind": 5,
         "importPath": "findtech.settings",
         "description": "findtech.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-p6mbx12a1s=j665dc7nd5#n*etx6!amrpi6@f#j)s72b!l50_4'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['findtech.up.railway.app']\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-p6mbx12a1s=j665dc7nd5#n*etx6!amrpi6@f#j)s72b!l50_4'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['findtech.up.railway.app']\nCSRF_TRUSTED_ORIGINS = ['https://findtech.up.railway.app']\n# Application definition",
         "detail": "findtech.settings",
         "documentation": {}
     },
@@ -1977,7 +1977,7 @@
         "kind": 5,
         "importPath": "findtech.settings",
         "description": "findtech.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-p6mbx12a1s=j665dc7nd5#n*etx6!amrpi6@f#j)s72b!l50_4'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['findtech.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    # 'django.contrib.sites',\n    'django.contrib.auth',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-p6mbx12a1s=j665dc7nd5#n*etx6!amrpi6@f#j)s72b!l50_4'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['findtech.up.railway.app']\nCSRF_TRUSTED_ORIGINS = ['https://findtech.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    # 'django.contrib.sites',",
         "detail": "findtech.settings",
         "documentation": {}
     },
@@ -1986,7 +1986,7 @@
         "kind": 5,
         "importPath": "findtech.settings",
         "description": "findtech.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['findtech.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    # 'django.contrib.sites',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['findtech.up.railway.app']\nCSRF_TRUSTED_ORIGINS = ['https://findtech.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    # 'django.contrib.sites',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "findtech.settings",
         "documentation": {}
     },
@@ -1995,7 +1995,16 @@
         "kind": 5,
         "importPath": "findtech.settings",
         "description": "findtech.settings",
-        "peekOfCode": "ALLOWED_HOSTS = ['findtech.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    # 'django.contrib.sites',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "peekOfCode": "ALLOWED_HOSTS = ['findtech.up.railway.app']\nCSRF_TRUSTED_ORIGINS = ['https://findtech.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    # 'django.contrib.sites',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CSRF_TRUSTED_ORIGINS",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = ['https://findtech.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    # 'django.contrib.sites',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
         "detail": "findtech.settings",
         "documentation": {}
     },

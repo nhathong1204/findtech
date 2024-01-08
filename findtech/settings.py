@@ -28,6 +28,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['findtech.up.railway.app']
 
+CSRF_TRUSTED_ORIGINS = ['https://findtech.up.railway.app']
+
+
 
 # Application definition
 
