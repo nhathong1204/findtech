@@ -1,0 +1,2308 @@
+[
+    {
+        "label": "django.db.models.deletion",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.db.models.deletion",
+        "description": "django.db.models.deletion",
+        "detail": "django.db.models.deletion",
+        "documentation": {}
+    },
+    {
+        "label": "shortuuid.django_fields",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "shortuuid.django_fields",
+        "description": "shortuuid.django_fields",
+        "detail": "shortuuid.django_fields",
+        "documentation": {}
+    },
+    {
+        "label": "ShortUUIDField",
+        "importPath": "shortuuid.django_fields",
+        "description": "shortuuid.django_fields",
+        "isExtraImport": true,
+        "detail": "shortuuid.django_fields",
+        "documentation": {}
+    },
+    {
+        "label": "ShortUUIDField",
+        "importPath": "shortuuid.django_fields",
+        "description": "shortuuid.django_fields",
+        "isExtraImport": true,
+        "detail": "shortuuid.django_fields",
+        "documentation": {}
+    },
+    {
+        "label": "uuid",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "uuid",
+        "description": "uuid",
+        "detail": "uuid",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "settings",
+        "importPath": "django.conf",
+        "description": "django.conf",
+        "isExtraImport": true,
+        "detail": "django.conf",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "migrations",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "models",
+        "importPath": "django.db",
+        "description": "django.db",
+        "isExtraImport": true,
+        "detail": "django.db",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "admin",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "messages",
+        "importPath": "django.contrib",
+        "description": "django.contrib",
+        "isExtraImport": true,
+        "detail": "django.contrib",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "account.models",
+        "description": "account.models",
+        "isExtraImport": true,
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "KYC",
+        "importPath": "account.models",
+        "description": "account.models",
+        "isExtraImport": true,
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "KYC",
+        "importPath": "account.models",
+        "description": "account.models",
+        "isExtraImport": true,
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "account.models",
+        "description": "account.models",
+        "isExtraImport": true,
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "KYC",
+        "importPath": "account.models",
+        "description": "account.models",
+        "isExtraImport": true,
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "KYC",
+        "importPath": "account.models",
+        "description": "account.models",
+        "isExtraImport": true,
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "account.models",
+        "description": "account.models",
+        "isExtraImport": true,
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "account.models",
+        "description": "account.models",
+        "isExtraImport": true,
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "account.models",
+        "description": "account.models",
+        "isExtraImport": true,
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "account.models",
+        "description": "account.models",
+        "isExtraImport": true,
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "account.models",
+        "description": "account.models",
+        "isExtraImport": true,
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "KYC",
+        "importPath": "account.models",
+        "description": "account.models",
+        "isExtraImport": true,
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "account.models",
+        "description": "account.models",
+        "isExtraImport": true,
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "account.models",
+        "description": "account.models",
+        "isExtraImport": true,
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "KYC",
+        "importPath": "account.models",
+        "description": "account.models",
+        "isExtraImport": true,
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "account.models",
+        "description": "account.models",
+        "isExtraImport": true,
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "ImportExportModelAdmin",
+        "importPath": "import_export.admin",
+        "description": "import_export.admin",
+        "isExtraImport": true,
+        "detail": "import_export.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "AppConfig",
+        "importPath": "django.apps",
+        "description": "django.apps",
+        "isExtraImport": true,
+        "detail": "django.apps",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "forms",
+        "importPath": "django",
+        "description": "django",
+        "isExtraImport": true,
+        "detail": "django",
+        "documentation": {}
+    },
+    {
+        "label": "ImageField",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "FileInput",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "DateInput",
+        "importPath": "django.forms",
+        "description": "django.forms",
+        "isExtraImport": true,
+        "detail": "django.forms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "userauths.models",
+        "description": "userauths.models",
+        "isExtraImport": true,
+        "detail": "userauths.models",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "importPath": "userauths.models",
+        "description": "userauths.models",
+        "isExtraImport": true,
+        "detail": "userauths.models",
+        "documentation": {}
+    },
+    {
+        "label": "post_save",
+        "importPath": "django.db.models.signals",
+        "description": "django.db.models.signals",
+        "isExtraImport": true,
+        "detail": "django.db.models.signals",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "TestCase",
+        "importPath": "django.test",
+        "description": "django.test",
+        "isExtraImport": true,
+        "detail": "django.test",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "include",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "path",
+        "importPath": "django.urls",
+        "description": "django.urls",
+        "isExtraImport": true,
+        "detail": "django.urls",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "render",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "redirect",
+        "importPath": "django.shortcuts",
+        "description": "django.shortcuts",
+        "isExtraImport": true,
+        "detail": "django.shortcuts",
+        "documentation": {}
+    },
+    {
+        "label": "KYCForm",
+        "importPath": "account.forms",
+        "description": "account.forms",
+        "isExtraImport": true,
+        "detail": "account.forms",
+        "documentation": {}
+    },
+    {
+        "label": "CreditCardForm",
+        "importPath": "core.forms",
+        "description": "core.forms",
+        "isExtraImport": true,
+        "detail": "core.forms",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "login_required",
+        "importPath": "django.contrib.auth.decorators",
+        "description": "django.contrib.auth.decorators",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.decorators",
+        "documentation": {}
+    },
+    {
+        "label": "CreditCard",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Transaction",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "CreditCard",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "CreditCard",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "CreditCard",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Transaction",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "CreditCard",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Transaction",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Transaction",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Transaction",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "CreditCard",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "Transaction",
+        "importPath": "core.models",
+        "description": "core.models",
+        "isExtraImport": true,
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "JsonResponse",
+        "importPath": "django.http",
+        "description": "django.http",
+        "isExtraImport": true,
+        "detail": "django.http",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "render_to_string",
+        "importPath": "django.template.loader",
+        "description": "django.template.loader",
+        "isExtraImport": true,
+        "detail": "django.template.loader",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "Decimal",
+        "importPath": "decimal",
+        "description": "decimal",
+        "isExtraImport": true,
+        "detail": "decimal",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "importPath": "django.db.models",
+        "description": "django.db.models",
+        "isExtraImport": true,
+        "detail": "django.db.models",
+        "documentation": {}
+    },
+    {
+        "label": "account",
+        "importPath": "account.views",
+        "description": "account.views",
+        "isExtraImport": true,
+        "detail": "account.views",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "get_asgi_application",
+        "importPath": "django.core.asgi",
+        "description": "django.core.asgi",
+        "isExtraImport": true,
+        "detail": "django.core.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "Path",
+        "importPath": "pathlib",
+        "description": "pathlib",
+        "isExtraImport": true,
+        "detail": "pathlib",
+        "documentation": {}
+    },
+    {
+        "label": "static",
+        "importPath": "django.conf.urls.static",
+        "description": "django.conf.urls.static",
+        "isExtraImport": true,
+        "detail": "django.conf.urls.static",
+        "documentation": {}
+    },
+    {
+        "label": "get_wsgi_application",
+        "importPath": "django.core.wsgi",
+        "description": "django.core.wsgi",
+        "isExtraImport": true,
+        "detail": "django.core.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "django.contrib.auth.models",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "AbstractUser",
+        "importPath": "django.contrib.auth.models",
+        "description": "django.contrib.auth.models",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.models",
+        "documentation": {}
+    },
+    {
+        "label": "django.utils.timezone",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "django.utils.timezone",
+        "description": "django.utils.timezone",
+        "detail": "django.utils.timezone",
+        "documentation": {}
+    },
+    {
+        "label": "UserCreationForm",
+        "importPath": "django.contrib.auth.forms",
+        "description": "django.contrib.auth.forms",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth.forms",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "authenticate",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "login",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "logout",
+        "importPath": "django.contrib.auth",
+        "description": "django.contrib.auth",
+        "isExtraImport": true,
+        "detail": "django.contrib.auth",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "account.migrations.0001_initial",
+        "description": "account.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Account',\n            fields=[\n                ('id', models.UUIDField(default=uuid.uuid4, editable=False, primary_key=True, serialize=False, unique=True)),",
+        "detail": "account.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "account.migrations.0002_alter_account_ref_code_kyc",
+        "description": "account.migrations.0002_alter_account_ref_code_kyc",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0001_initial'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='account',\n            name='ref_code',\n            field=shortuuid.django_fields.ShortUUIDField(alphabet='abcdefgh1234567890', length=10, max_length=20, prefix='', unique=True),",
+        "detail": "account.migrations.0002_alter_account_ref_code_kyc",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "account.migrations.0003_kyc_identity_image",
+        "description": "account.migrations.0003_kyc_identity_image",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0002_alter_account_ref_code_kyc'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='kyc',\n            name='identity_image',\n            field=models.ImageField(blank=True, null=True, upload_to='kyc'),\n        ),",
+        "detail": "account.migrations.0003_kyc_identity_image",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "account.migrations.0004_kyc_account",
+        "description": "account.migrations.0004_kyc_account",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0003_kyc_identity_image'),\n    ]\n    operations = [\n        migrations.AddField(\n            model_name='kyc',\n            name='account',\n            field=models.OneToOneField(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to='account.account'),\n        ),",
+        "detail": "account.migrations.0004_kyc_account",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "account.migrations.0005_alter_kyc_date_of_birth",
+        "description": "account.migrations.0005_alter_kyc_date_of_birth",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0004_kyc_account'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='kyc',\n            name='date_of_birth',\n            field=models.DateTimeField(),\n        ),",
+        "detail": "account.migrations.0005_alter_kyc_date_of_birth",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "account.migrations.0006_rename_marrrital_status_kyc_marrital_status",
+        "description": "account.migrations.0006_rename_marrrital_status_kyc_marrital_status",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0005_alter_kyc_date_of_birth'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='kyc',\n            old_name='marrrital_status',\n            new_name='marrital_status',\n        ),",
+        "detail": "account.migrations.0006_rename_marrrital_status_kyc_marrital_status",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "account.migrations.0007_rename_marrital_status_kyc_marital_status",
+        "description": "account.migrations.0007_rename_marrital_status_kyc_marital_status",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0006_rename_marrrital_status_kyc_marrital_status'),\n    ]\n    operations = [\n        migrations.RenameField(\n            model_name='kyc',\n            old_name='marrital_status',\n            new_name='marital_status',\n        ),",
+        "detail": "account.migrations.0007_rename_marrital_status_kyc_marital_status",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "account.migrations.0008_alter_kyc_date_of_birth",
+        "description": "account.migrations.0008_alter_kyc_date_of_birth",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0007_rename_marrital_status_kyc_marital_status'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='kyc',\n            name='date_of_birth',\n            field=models.DateField(),\n        ),",
+        "detail": "account.migrations.0008_alter_kyc_date_of_birth",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "account.migrations.0009_alter_account_account_status",
+        "description": "account.migrations.0009_alter_account_account_status",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0008_alter_kyc_date_of_birth'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='account',\n            name='account_status',\n            field=models.CharField(choices=[('active', 'Active'), ('pending', 'Pending'), ('in-active', 'In Active')], default='in-active', max_length=100),\n        ),",
+        "detail": "account.migrations.0009_alter_account_account_status",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "account.migrations.0010_alter_kyc_nationality",
+        "description": "account.migrations.0010_alter_kyc_nationality",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0009_alter_account_account_status'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='kyc',\n            name='nationality',\n            field=models.CharField(choices=[('india', 'India'), ('nigeria', 'Nigeria'), ('united_kingdom', 'United Kingdom')], max_length=100),\n        ),",
+        "detail": "account.migrations.0010_alter_kyc_nationality",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "account.migrations.0011_alter_kyc_account_alter_kyc_user",
+        "description": "account.migrations.0011_alter_kyc_account_alter_kyc_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0010_alter_kyc_nationality'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='kyc',\n            name='account',\n            field=models.OneToOneField(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, related_name='kyc_account', to='account.account'),",
+        "detail": "account.migrations.0011_alter_kyc_account_alter_kyc_user",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "account.migrations.0012_alter_kyc_user",
+        "description": "account.migrations.0012_alter_kyc_user",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0011_alter_kyc_account_alter_kyc_user'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='kyc',\n            name='user',\n            field=models.OneToOneField(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL),",
+        "detail": "account.migrations.0012_alter_kyc_user",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "account.migrations.0013_alter_kyc_account",
+        "description": "account.migrations.0013_alter_kyc_account",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('account', '0012_alter_kyc_user'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='kyc',\n            name='account',\n            field=models.OneToOneField(blank=True, null=True, on_delete=django.db.models.deletion.CASCADE, to='account.account'),\n        ),",
+        "detail": "account.migrations.0013_alter_kyc_account",
+        "documentation": {}
+    },
+    {
+        "label": "AccountAdminModel",
+        "kind": 6,
+        "importPath": "account.admin",
+        "description": "account.admin",
+        "peekOfCode": "class AccountAdminModel(ImportExportModelAdmin):\n    list_editable = ['account_status', 'account_balance']\n    list_display = ['user', 'account_number', 'account_status', 'account_balance']\n    list_filter = ['account_status']\nclass KYCAdmin(ImportExportModelAdmin):\n    search_fields = ['full_name']\n    list_display = ['user', 'full_name']\nadmin.site.register(Account, AccountAdminModel)\nadmin.site.register(KYC, KYCAdmin)",
+        "detail": "account.admin",
+        "documentation": {}
+    },
+    {
+        "label": "KYCAdmin",
+        "kind": 6,
+        "importPath": "account.admin",
+        "description": "account.admin",
+        "peekOfCode": "class KYCAdmin(ImportExportModelAdmin):\n    search_fields = ['full_name']\n    list_display = ['user', 'full_name']\nadmin.site.register(Account, AccountAdminModel)\nadmin.site.register(KYC, KYCAdmin)",
+        "detail": "account.admin",
+        "documentation": {}
+    },
+    {
+        "label": "AccountConfig",
+        "kind": 6,
+        "importPath": "account.apps",
+        "description": "account.apps",
+        "peekOfCode": "class AccountConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'account'\n    # def ready(self):\n    #     import account.signals",
+        "detail": "account.apps",
+        "documentation": {}
+    },
+    {
+        "label": "default",
+        "kind": 2,
+        "importPath": "account.context_processor",
+        "description": "account.context_processor",
+        "peekOfCode": "def default(request):\n    if request.user.is_authenticated:\n        try:\n            kyc = KYC.objects.get(user=request.user)\n        except:\n            kyc = None\n        account = Account.objects.get(user=request.user)\n    else:\n        account = None\n        kyc = None",
+        "detail": "account.context_processor",
+        "documentation": {}
+    },
+    {
+        "label": "DateInput",
+        "kind": 6,
+        "importPath": "account.forms",
+        "description": "account.forms",
+        "peekOfCode": "class DateInput(forms.DateInput):\n    input_type = \"date\"\nclass KYCForm(forms.ModelForm):\n    identity_image = ImageField(widget=FileInput)\n    image = ImageField(widget=FileInput)\n    signature = ImageField(widget=FileInput)\n    # date_of_birth = forms.DateField(widget=DateInput)\n    # date_of_birth = DateField(input_formats=settings.DATE_INPUT_FORMATS)\n    # date_of_birth = forms.DateField(widget=forms.DateInput(attrs={'type': 'date'}))\n    class Meta:",
+        "detail": "account.forms",
+        "documentation": {}
+    },
+    {
+        "label": "KYCForm",
+        "kind": 6,
+        "importPath": "account.forms",
+        "description": "account.forms",
+        "peekOfCode": "class KYCForm(forms.ModelForm):\n    identity_image = ImageField(widget=FileInput)\n    image = ImageField(widget=FileInput)\n    signature = ImageField(widget=FileInput)\n    # date_of_birth = forms.DateField(widget=DateInput)\n    # date_of_birth = DateField(input_formats=settings.DATE_INPUT_FORMATS)\n    # date_of_birth = forms.DateField(widget=forms.DateInput(attrs={'type': 'date'}))\n    class Meta:\n        model = KYC\n        fields = [",
+        "detail": "account.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "kind": 6,
+        "importPath": "account.models",
+        "description": "account.models",
+        "peekOfCode": "class Account(models.Model):\n    ACCOUNT_STATUS = (\n        ('active', 'Active'),\n        ('pending', 'Pending'),\n        ('in-active', 'In Active'),\n    )\n    id = models.UUIDField(primary_key=True, unique=True, default=uuid.uuid4, editable=False)\n    user = models.OneToOneField(User, on_delete=models.CASCADE)\n    account_balance = models.DecimalField(max_digits=12, decimal_places=2, default=0.00)\n    account_number = ShortUUIDField(unique=True, length=10, max_length=25, prefix=\"217\", alphabet=\"1234567890\")",
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "KYC",
+        "kind": 6,
+        "importPath": "account.models",
+        "description": "account.models",
+        "peekOfCode": "class KYC(models.Model):\n    MARITAL_STATUS = (\n        ('married', 'Married'),\n        ('single', 'Single'),\n        ('other', 'Other'),\n    )\n    GENDER = (\n        ('male', 'Male'),\n        ('female', 'Female'),\n        ('other', 'Other'),",
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "user_directory_path",
+        "kind": 2,
+        "importPath": "account.models",
+        "description": "account.models",
+        "peekOfCode": "def user_directory_path(instance, filename):\n    ext = filename.split('.')[-1]\n    filename = \"%s_%s\" % (instance.id, ext)\n    return \"user_{0}/{1}\".format(instance.user.id, filename)\nclass Account(models.Model):\n    ACCOUNT_STATUS = (\n        ('active', 'Active'),\n        ('pending', 'Pending'),\n        ('in-active', 'In Active'),\n    )",
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "handle_create_save_account",
+        "kind": 2,
+        "importPath": "account.models",
+        "description": "account.models",
+        "peekOfCode": "def handle_create_save_account(sender, instance, created, **kwargs):\n    if created:\n        Account.objects.create(user=instance)\n    else:\n        instance.account.save()\n# def save_account(sender, instance, **kwargs):\n#     instance.account.save()\npost_save.connect(handle_create_save_account, sender=User)\n# post_save.connect(create_account, sender=User)\n# post_save.connect(save_account, sender=User)",
+        "detail": "account.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "account.urls",
+        "description": "account.urls",
+        "peekOfCode": "app_name = 'account'\nurlpatterns = [\n    path('dashboard/', views.dashboard, name='dashboard'),\n    path('account/', views.account, name='account'),\n    path('kyc-reg/', views.kyc_registration, name='kyc-reg'),\n]",
+        "detail": "account.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "account.urls",
+        "description": "account.urls",
+        "peekOfCode": "urlpatterns = [\n    path('dashboard/', views.dashboard, name='dashboard'),\n    path('account/', views.account, name='account'),\n    path('kyc-reg/', views.kyc_registration, name='kyc-reg'),\n]",
+        "detail": "account.urls",
+        "documentation": {}
+    },
+    {
+        "label": "account",
+        "kind": 2,
+        "importPath": "account.views",
+        "description": "account.views",
+        "peekOfCode": "def account(request):\n    if request.user.is_authenticated:\n        try:\n            kyc = KYC.objects.get(user=request.user)\n        except:\n            messages.warning(request, 'You need to submit your kyc')\n            return redirect('account:kyc-reg')\n        account = Account.objects.get(user=request.user)\n    else:\n        messages.warning(request, 'You need to login to access the dashboard')",
+        "detail": "account.views",
+        "documentation": {}
+    },
+    {
+        "label": "kyc_registration",
+        "kind": 2,
+        "importPath": "account.views",
+        "description": "account.views",
+        "peekOfCode": "def kyc_registration(request):\n    user = request.user\n    account = Account.objects.get(user=user)\n    try:\n        kyc = KYC.objects.get(user=user)\n    except:\n        kyc = None\n    if request.method == 'POST':\n        form = KYCForm(request.POST, request.FILES, instance=kyc)\n        if form.is_valid():",
+        "detail": "account.views",
+        "documentation": {}
+    },
+    {
+        "label": "dashboard",
+        "kind": 2,
+        "importPath": "account.views",
+        "description": "account.views",
+        "peekOfCode": "def dashboard(request):\n    if request.user.is_authenticated:\n        try:\n            kyc = KYC.objects.get(user=request.user)\n        except:\n            messages.warning(request, 'You need to submit your kyc')\n            return redirect('account:kyc-reg')\n        account = Account.objects.get(user=request.user)\n        credit_card = CreditCard.objects.filter(user=request.user).order_by('-id')\n        if request.method == 'POST':",
+        "detail": "account.views",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0001_initial",
+        "description": "core.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('account', '0010_alter_kyc_nationality'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='Transaction',\n            fields=[",
+        "detail": "core.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0002_alter_transaction_status",
+        "description": "core.migrations.0002_alter_transaction_status",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0001_initial'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='transaction',\n            name='status',\n            field=models.CharField(choices=[('failed', 'Failed'), ('completed', 'Completed'), ('pending', 'Pending'), ('processing', 'Processing'), ('requested', 'Requested')], default='none', max_length=100),\n        ),",
+        "detail": "core.migrations.0002_alter_transaction_status",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0003_alter_transaction_status_and_more",
+        "description": "core.migrations.0003_alter_transaction_status_and_more",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0002_alter_transaction_status'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='transaction',\n            name='status',\n            field=models.CharField(choices=[('failed', 'Failed'), ('completed', 'Completed'), ('pending', 'Pending'), ('processing', 'Processing'), ('request_sent', 'Request Sent'), ('request_settled', 'Request Settled'), ('request_processing', 'Request Processing')], default='none', max_length=100),\n        ),",
+        "detail": "core.migrations.0003_alter_transaction_status_and_more",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0004_creditcard",
+        "description": "core.migrations.0004_creditcard",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0003_alter_transaction_status_and_more'),\n        migrations.swappable_dependency(settings.AUTH_USER_MODEL),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='CreditCard',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "core.migrations.0004_creditcard",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "core.migrations.0005_alter_creditcard_card_type",
+        "description": "core.migrations.0005_alter_creditcard_card_type",
+        "peekOfCode": "class Migration(migrations.Migration):\n    dependencies = [\n        ('core', '0004_creditcard'),\n    ]\n    operations = [\n        migrations.AlterField(\n            model_name='creditcard',\n            name='card_type',\n            field=models.CharField(choices=[('master', 'Master'), ('visa', 'Visa'), ('verve', 'Verve')], default='master', max_length=20),\n        ),",
+        "detail": "core.migrations.0005_alter_creditcard_card_type",
+        "documentation": {}
+    },
+    {
+        "label": "TransactionAdmin",
+        "kind": 6,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "class TransactionAdmin(admin.ModelAdmin):\n    list_editable = ('amount', 'receiver', 'sender', 'transaction_type', 'status')\n    list_display = ('transaction_id', 'user', 'amount', 'receiver', 'sender', 'transaction_type', 'status')\nclass CreditCardAdmin(admin.ModelAdmin):\n    list_editable = ('amount', 'card_type')\n    list_display = ('user', 'amount', 'card_type')\nadmin.site.register(Transaction, TransactionAdmin)\nadmin.site.register(CreditCard, CreditCardAdmin)",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CreditCardAdmin",
+        "kind": 6,
+        "importPath": "core.admin",
+        "description": "core.admin",
+        "peekOfCode": "class CreditCardAdmin(admin.ModelAdmin):\n    list_editable = ('amount', 'card_type')\n    list_display = ('user', 'amount', 'card_type')\nadmin.site.register(Transaction, TransactionAdmin)\nadmin.site.register(CreditCard, CreditCardAdmin)",
+        "detail": "core.admin",
+        "documentation": {}
+    },
+    {
+        "label": "CoreConfig",
+        "kind": 6,
+        "importPath": "core.apps",
+        "description": "core.apps",
+        "peekOfCode": "class CoreConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'core'",
+        "detail": "core.apps",
+        "documentation": {}
+    },
+    {
+        "label": "ajax_card_detail",
+        "kind": 2,
+        "importPath": "core.credit_card",
+        "description": "core.credit_card",
+        "peekOfCode": "def ajax_card_detail(request):\n    card_id = request.GET.get('card_id')\n    account = Account.objects.get(user=request.user)\n    credit_card = CreditCard.objects.get(card_id=card_id, user=request.user)\n    # context = {\n    #     'account': account,\n    #     'credit_card': credit_card\n    # }\n    # return render(request, 'credit_card/card-detail.html', context)\n    card_detail = render_to_string('credit_card/card-detail.html', {'credit_card': credit_card})",
+        "detail": "core.credit_card",
+        "documentation": {}
+    },
+    {
+        "label": "DepositListPayments",
+        "kind": 2,
+        "importPath": "core.deposit_money",
+        "description": "core.deposit_money",
+        "peekOfCode": "def DepositListPayments(request):\n    credits = CreditCard.objects.filter(card_status=True, user=request.user)\n    context = {\n        'credits': credits\n    }\n    return render(request, 'deposit_payment/list-payment-links.html', context)\n@login_required\ndef DepositProcess(request, card_id):\n    credit_card = CreditCard.objects.get(card_id=card_id, user=request.user)\n    account = request.user.account",
+        "detail": "core.deposit_money",
+        "documentation": {}
+    },
+    {
+        "label": "DepositProcess",
+        "kind": 2,
+        "importPath": "core.deposit_money",
+        "description": "core.deposit_money",
+        "peekOfCode": "def DepositProcess(request, card_id):\n    credit_card = CreditCard.objects.get(card_id=card_id, user=request.user)\n    account = request.user.account\n    # transaction = Transaction.objects.exclude(status='completed').get(transaction_id=transaction_id)\n    if request.method == 'POST':\n        deposit_amount = request.POST.get('deposit-amount')\n        context = {\n            'deposit_amount': deposit_amount,\n            'account': account,\n            'credit_card': credit_card,",
+        "detail": "core.deposit_money",
+        "documentation": {}
+    },
+    {
+        "label": "AjaxDepositCompleted",
+        "kind": 2,
+        "importPath": "core.deposit_money",
+        "description": "core.deposit_money",
+        "peekOfCode": "def AjaxDepositCompleted(request):\n    card_id = request.GET.get('card_id')\n    deposit_amount = request.GET.get('deposit_amount')\n    credit_card = CreditCard.objects.get(card_id=card_id, user=request.user)\n    account = request.user.account\n    if credit_card.amount >= Decimal(deposit_amount):\n        account.account_balance += Decimal(deposit_amount)\n        account.save()\n        credit_card.amount -= Decimal(deposit_amount)\n        credit_card.save()",
+        "detail": "core.deposit_money",
+        "documentation": {}
+    },
+    {
+        "label": "CreditCardForm",
+        "kind": 6,
+        "importPath": "core.forms",
+        "description": "core.forms",
+        "peekOfCode": "class CreditCardForm(forms.ModelForm):\n    name = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Card Holder Name'}))\n    number = forms.CharField(max_length=16, widget=forms.TextInput(attrs={'placeholder': 'Card Number'}))\n    month = forms.CharField(max_length=2, widget=forms.TextInput(attrs={'placeholder': 'Expiry Month'}))\n    year = forms.CharField(max_length=2, widget=forms.TextInput(attrs={'placeholder': 'Expiry Year'}))\n    cvv = forms.CharField(max_length=3, widget=forms.TextInput(attrs={'placeholder': 'CVV'}))\n    class Meta:\n        model = CreditCard\n        fields = ['name', 'number', 'month', 'year', 'cvv', 'card_type']",
+        "detail": "core.forms",
+        "documentation": {}
+    },
+    {
+        "label": "Transaction",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class Transaction(models.Model):\n    TRANSACTION_TYPE = (\n        ('transfer', 'Transfer'),\n        ('received', 'Received'),\n        ('withdraw', 'Withdraw'),\n        ('refund', 'Refund'),\n        ('request', 'Payment Request'),\n        ('none', 'none'),\n    )\n    TRANSACTION_STATUS = (",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "CreditCard",
+        "kind": 6,
+        "importPath": "core.models",
+        "description": "core.models",
+        "peekOfCode": "class CreditCard(models.Model):\n    CARD_TYPE  = (\n        ('master', 'Master'),\n        ('visa', 'Visa'),\n        ('verve', 'Verve'),\n    )\n    user = models.ForeignKey(User, on_delete=models.CASCADE)\n    card_id = ShortUUIDField(unique=True, length=14, max_length=20, prefix=\"CARD\", alphabet=\"1234567890\")\n    name = models.CharField(max_length=100)\n    number = models.IntegerField()",
+        "detail": "core.models",
+        "documentation": {}
+    },
+    {
+        "label": "SearchUserRequest",
+        "kind": 2,
+        "importPath": "core.payment_request",
+        "description": "core.payment_request",
+        "peekOfCode": "def SearchUserRequest(request):\n    # need to create kyc account\n    try:\n        kyc = KYC.objects.get(user=request.user)\n    except:\n        messages.warning(request, 'You need to submit your kyc')\n        return redirect('account:kyc-reg')\n    ################################\n    accounts = Account.objects.filter(account_status='active').exclude(user=request.user)\n    query = request.POST.get('account_number')",
+        "detail": "core.payment_request",
+        "documentation": {}
+    },
+    {
+        "label": "AmountRequest",
+        "kind": 2,
+        "importPath": "core.payment_request",
+        "description": "core.payment_request",
+        "peekOfCode": "def AmountRequest(request, account_number):\n    # need to create kyc account\n    try:\n        kyc = KYC.objects.get(user=request.user)\n    except:\n        messages.warning(request, 'You need to submit your kyc')\n        return redirect('account:kyc-reg')\n    ################################\n    account = Account.objects.get(account_number=account_number)\n    context = {",
+        "detail": "core.payment_request",
+        "documentation": {}
+    },
+    {
+        "label": "AmountRequestProcess",
+        "kind": 2,
+        "importPath": "core.payment_request",
+        "description": "core.payment_request",
+        "peekOfCode": "def AmountRequestProcess(request, account_number):\n    # need to create kyc account\n    try:\n        kyc = KYC.objects.get(user=request.user)\n    except:\n        messages.warning(request, 'You need to submit your kyc')\n        return redirect('account:kyc-reg')\n    ################################\n    account = Account.objects.get(account_number=account_number)\n    sender = request.user",
+        "detail": "core.payment_request",
+        "documentation": {}
+    },
+    {
+        "label": "AmountRequestConfirmation",
+        "kind": 2,
+        "importPath": "core.payment_request",
+        "description": "core.payment_request",
+        "peekOfCode": "def AmountRequestConfirmation(request, account_number, transaction_id):\n    # need to create kyc account\n    try:\n        kyc = KYC.objects.get(user=request.user)\n    except:\n        messages.warning(request, 'You need to submit your kyc')\n        return redirect('account:kyc-reg')\n    ################################\n    try:\n        account = Account.objects.get(account_number=account_number)",
+        "detail": "core.payment_request",
+        "documentation": {}
+    },
+    {
+        "label": "AmountRequestFinalProcess",
+        "kind": 2,
+        "importPath": "core.payment_request",
+        "description": "core.payment_request",
+        "peekOfCode": "def AmountRequestFinalProcess(request, account_number, transaction_id):\n    # need to create kyc account\n    try:\n        kyc = KYC.objects.get(user=request.user)\n    except:\n        messages.warning(request, 'You need to submit your kyc')\n        return redirect('account:kyc-reg')\n    ################################\n    account = Account.objects.get(account_number=account_number)\n    transaction = Transaction.objects.get(transaction_id=transaction_id)",
+        "detail": "core.payment_request",
+        "documentation": {}
+    },
+    {
+        "label": "AmountRequestCompleted",
+        "kind": 2,
+        "importPath": "core.payment_request",
+        "description": "core.payment_request",
+        "peekOfCode": "def AmountRequestCompleted(request, account_number, transaction_id):\n    # need to create kyc account\n    try:\n        kyc = KYC.objects.get(user=request.user)\n    except:\n        messages.warning(request, 'You need to submit your kyc')\n        return redirect('account:kyc-reg')\n    ################################\n    try:\n        account = Account.objects.get(account_number=account_number)",
+        "detail": "core.payment_request",
+        "documentation": {}
+    },
+    {
+        "label": "SettlementConfirmation",
+        "kind": 2,
+        "importPath": "core.payment_request",
+        "description": "core.payment_request",
+        "peekOfCode": "def SettlementConfirmation(request, account_number, transaction_id):\n    account = Account.objects.get(account_number=account_number)\n    transaction = Transaction.objects.get(transaction_id=transaction_id)\n    context = {\n        'account': account,\n        'transaction': transaction\n    }\n    return render(request, 'payment_request/settlement-confirmation.html', context)\n@login_required\ndef SettlementProcessing(request, account_number, transaction_id):",
+        "detail": "core.payment_request",
+        "documentation": {}
+    },
+    {
+        "label": "SettlementProcessing",
+        "kind": 2,
+        "importPath": "core.payment_request",
+        "description": "core.payment_request",
+        "peekOfCode": "def SettlementProcessing(request, account_number, transaction_id):\n    # need to create kyc account\n    try:\n        kyc = KYC.objects.get(user=request.user)\n    except:\n        messages.warning(request, 'You need to submit your kyc')\n        return redirect('account:kyc-reg')\n    ################################\n    account = Account.objects.get(account_number=account_number)\n    transaction = Transaction.objects.get(transaction_id=transaction_id)",
+        "detail": "core.payment_request",
+        "documentation": {}
+    },
+    {
+        "label": "SettlementCompleted",
+        "kind": 2,
+        "importPath": "core.payment_request",
+        "description": "core.payment_request",
+        "peekOfCode": "def SettlementCompleted(request, account_number, transaction_id):\n    # need to create kyc account\n    try:\n        kyc = KYC.objects.get(user=request.user)\n    except:\n        messages.warning(request, 'You need to submit your kyc')\n        return redirect('account:kyc-reg')\n    ################################\n    try:\n        account = Account.objects.get(account_number=account_number)",
+        "detail": "core.payment_request",
+        "documentation": {}
+    },
+    {
+        "label": "DeletePaymentRequest",
+        "kind": 2,
+        "importPath": "core.payment_request",
+        "description": "core.payment_request",
+        "peekOfCode": "def DeletePaymentRequest(request, account_number, transaction_id):\n    # need to create kyc account\n    try:\n        kyc = KYC.objects.get(user=request.user)\n    except:\n        messages.warning(request, 'You need to submit your kyc')\n        return redirect('account:kyc-reg')\n    ################################\n    account = Account.objects.get(account_number=account_number)\n    transaction = Transaction.objects.get(transaction_id=transaction_id)",
+        "detail": "core.payment_request",
+        "documentation": {}
+    },
+    {
+        "label": "transaction_list",
+        "kind": 2,
+        "importPath": "core.transaction",
+        "description": "core.transaction",
+        "peekOfCode": "def transaction_list(request):\n    sender_transaction = Transaction.objects.filter(sender=request.user, transaction_type='transfer').order_by('-id')\n    receiver_transaction = Transaction.objects.filter(receiver=request.user, transaction_type='transfer').order_by('-id')\n    request_sender_transaction = Transaction.objects.filter(sender=request.user, transaction_type='request').order_by('-id')\n    request_receiver_transaction = Transaction.objects.filter(receiver=request.user, transaction_type='request').order_by('-id')\n    context = {\n        'sender_transaction': sender_transaction,\n        'receiver_transaction': receiver_transaction,\n        'request_sender_transaction': request_sender_transaction,\n        'request_receiver_transaction': request_receiver_transaction,",
+        "detail": "core.transaction",
+        "documentation": {}
+    },
+    {
+        "label": "ajax_transaction_detail",
+        "kind": 2,
+        "importPath": "core.transaction",
+        "description": "core.transaction",
+        "peekOfCode": "def ajax_transaction_detail(request):\n    transaction_id = request.GET.get('transaction_id')\n    transaction = Transaction.objects.get(transaction_id=transaction_id)\n    transaction_detail = render_to_string('transaction/transaction-detail.html', {'transaction': transaction})\n    return JsonResponse(\n        {\n            'success': True,\n            'transaction_detail': transaction_detail,\n        }\n    )",
+        "detail": "core.transaction",
+        "documentation": {}
+    },
+    {
+        "label": "search_user_account_number",
+        "kind": 2,
+        "importPath": "core.transfer",
+        "description": "core.transfer",
+        "peekOfCode": "def search_user_account_number(request):\n    # need to create kyc account\n    try:\n        kyc = KYC.objects.get(user=request.user)\n    except:\n        messages.warning(request, 'You need to submit your kyc')\n        return redirect('account:kyc-reg')\n    ################################\n    accounts = Account.objects.filter(account_status='active').exclude(user=request.user)\n    # accounts = Account.objects.all()",
+        "detail": "core.transfer",
+        "documentation": {}
+    },
+    {
+        "label": "AmountTransfer",
+        "kind": 2,
+        "importPath": "core.transfer",
+        "description": "core.transfer",
+        "peekOfCode": "def AmountTransfer(request, account_number):\n    # need to create kyc account\n    try:\n        kyc = KYC.objects.get(user=request.user)\n    except:\n        messages.warning(request, 'You need to submit your kyc')\n        return redirect('account:kyc-reg')\n    ################################\n    try:\n        account = Account.objects.get(account_number=account_number)",
+        "detail": "core.transfer",
+        "documentation": {}
+    },
+    {
+        "label": "AmountTransferProcess",
+        "kind": 2,
+        "importPath": "core.transfer",
+        "description": "core.transfer",
+        "peekOfCode": "def AmountTransferProcess(request, account_number):\n    # need to create kyc account\n    try:\n        kyc = KYC.objects.get(user=request.user)\n    except:\n        messages.warning(request, 'You need to submit your kyc')\n        return redirect('account:kyc-reg')\n    ################################\n    account = Account.objects.get(account_number=account_number) # get the account that the money could be sent to\n    sender = request.user # the person that is logged in",
+        "detail": "core.transfer",
+        "documentation": {}
+    },
+    {
+        "label": "TransferConfirmation",
+        "kind": 2,
+        "importPath": "core.transfer",
+        "description": "core.transfer",
+        "peekOfCode": "def TransferConfirmation(request, account_number, transaction_id):\n    # need to create kyc account\n    try:\n        kyc = KYC.objects.get(user=request.user)\n    except:\n        messages.warning(request, 'You need to submit your kyc')\n        return redirect('account:kyc-reg')\n    ################################\n    try:\n        account = Account.objects.get(account_number=account_number)",
+        "detail": "core.transfer",
+        "documentation": {}
+    },
+    {
+        "label": "TransferProcess",
+        "kind": 2,
+        "importPath": "core.transfer",
+        "description": "core.transfer",
+        "peekOfCode": "def TransferProcess(request, account_number, transaction_id):\n    # need to create kyc account\n    try:\n        kyc = KYC.objects.get(user=request.user)\n    except:\n        messages.warning(request, 'You need to submit your kyc')\n        return redirect('account:kyc-reg')\n    ################################\n    account = Account.objects.get(account_number=account_number)\n    transaction = Transaction.objects.get(transaction_id=transaction_id)",
+        "detail": "core.transfer",
+        "documentation": {}
+    },
+    {
+        "label": "TransferCompleted",
+        "kind": 2,
+        "importPath": "core.transfer",
+        "description": "core.transfer",
+        "peekOfCode": "def TransferCompleted(request, account_number, transaction_id):\n    # need to create kyc account\n    try:\n        kyc = KYC.objects.get(user=request.user)\n    except:\n        messages.warning(request, 'You need to submit your kyc')\n        return redirect('account:kyc-reg')\n    ################################\n    try:\n        account = Account.objects.get(account_number=account_number)",
+        "detail": "core.transfer",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "core.urls",
+        "description": "core.urls",
+        "peekOfCode": "app_name = 'core'\nurlpatterns = [\n    path('', views.index, name='index'),\n    # transfers\n    path('search-account/', transfer.search_user_account_number, name='search-account'),\n    path('amount-transfer/<account_number>/', transfer.AmountTransfer, name='amount-transfer'),\n    path('amount-transfer-process/<account_number>/', transfer.AmountTransferProcess, name='amount-transfer-process'),\n    path('transfer-confirmation/<account_number>/<transaction_id>/', transfer.TransferConfirmation, name='transfer-confirmation'),\n    path('transfer-process/<account_number>/<transaction_id>/', transfer.TransferProcess, name='transfer-process'),\n    path('transfer-completed/<account_number>/<transaction_id>/', transfer.TransferCompleted, name='transfer-completed'),",
+        "detail": "core.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "core.urls",
+        "description": "core.urls",
+        "peekOfCode": "urlpatterns = [\n    path('', views.index, name='index'),\n    # transfers\n    path('search-account/', transfer.search_user_account_number, name='search-account'),\n    path('amount-transfer/<account_number>/', transfer.AmountTransfer, name='amount-transfer'),\n    path('amount-transfer-process/<account_number>/', transfer.AmountTransferProcess, name='amount-transfer-process'),\n    path('transfer-confirmation/<account_number>/<transaction_id>/', transfer.TransferConfirmation, name='transfer-confirmation'),\n    path('transfer-process/<account_number>/<transaction_id>/', transfer.TransferProcess, name='transfer-process'),\n    path('transfer-completed/<account_number>/<transaction_id>/', transfer.TransferCompleted, name='transfer-completed'),\n    # transaction",
+        "detail": "core.urls",
+        "documentation": {}
+    },
+    {
+        "label": "index",
+        "kind": 2,
+        "importPath": "core.views",
+        "description": "core.views",
+        "peekOfCode": "def index(request):\n    return render(request, 'core/index.html')",
+        "detail": "core.views",
+        "documentation": {}
+    },
+    {
+        "label": "WithdrawListPayments",
+        "kind": 2,
+        "importPath": "core.withdraw_money",
+        "description": "core.withdraw_money",
+        "peekOfCode": "def WithdrawListPayments(request):\n    credits = CreditCard.objects.filter(card_status=True, user=request.user)\n    context = {\n        'credits': credits\n    }\n    return render(request, 'withdraw_payment/list-payment-links.html', context)\n@login_required\ndef WithdrawProcess(request, card_id):\n    credit_card = CreditCard.objects.get(card_id=card_id, user=request.user)\n    account = request.user.account",
+        "detail": "core.withdraw_money",
+        "documentation": {}
+    },
+    {
+        "label": "WithdrawProcess",
+        "kind": 2,
+        "importPath": "core.withdraw_money",
+        "description": "core.withdraw_money",
+        "peekOfCode": "def WithdrawProcess(request, card_id):\n    credit_card = CreditCard.objects.get(card_id=card_id, user=request.user)\n    account = request.user.account\n    # transaction = Transaction.objects.exclude(status='completed').get(transaction_id=transaction_id)\n    if request.method == 'POST':\n        withdraw_amount = request.POST.get('withdraw-amount')\n        context = {\n            'withdraw_amount': withdraw_amount,\n            'account': account,\n            'credit_card': credit_card,",
+        "detail": "core.withdraw_money",
+        "documentation": {}
+    },
+    {
+        "label": "AjaxWithDrawCompleted",
+        "kind": 2,
+        "importPath": "core.withdraw_money",
+        "description": "core.withdraw_money",
+        "peekOfCode": "def AjaxWithDrawCompleted(request):\n    card_id = request.GET.get('card_id')\n    withdraw_amount = request.GET.get('withdraw_amount')\n    credit_card = CreditCard.objects.get(card_id=card_id, user=request.user)\n    account = request.user.account\n    if credit_card.amount >= Decimal(withdraw_amount):\n        account.account_balance -= Decimal(withdraw_amount)\n        account.save()\n        credit_card.amount += Decimal(withdraw_amount)\n        credit_card.save()",
+        "detail": "core.withdraw_money",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "findtech.asgi",
+        "description": "findtech.asgi",
+        "peekOfCode": "application = get_asgi_application()",
+        "detail": "findtech.asgi",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_DIR",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-p6mbx12a1s=j665dc7nd5#n*etx6!amrpi6@f#j)s72b!l50_4'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['findtech.up.railway.app']\n# Application definition\nINSTALLED_APPS = [",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "SECRET_KEY",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-p6mbx12a1s=j665dc7nd5#n*etx6!amrpi6@f#j)s72b!l50_4'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['findtech.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    # 'django.contrib.sites',\n    'django.contrib.auth',",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEBUG",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['findtech.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    # 'django.contrib.sites',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ALLOWED_HOSTS",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "ALLOWED_HOSTS = ['findtech.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    # 'django.contrib.sites',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "INSTALLED_APPS",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "INSTALLED_APPS = [\n    'jazzmin',\n    'django.contrib.admin',\n    # 'django.contrib.sites',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'django.contrib.humanize',",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MIDDLEWARE",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'findtech.urls'",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "ROOT_URLCONF",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "ROOT_URLCONF = 'findtech.urls'\nTEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [ os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'account.context_processor.default',\n                'django.template.context_processors.debug',",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TEMPLATES",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "TEMPLATES = [\n    {\n        'BACKEND': 'django.template.backends.django.DjangoTemplates',\n        'DIRS': [ os.path.join(BASE_DIR, 'templates')],\n        'APP_DIRS': True,\n        'OPTIONS': {\n            'context_processors': [\n                'account.context_processor.default',\n                'django.template.context_processors.debug',\n                'django.template.context_processors.request',",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "WSGI_APPLICATION",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "WSGI_APPLICATION = 'findtech.wsgi.application'\n# Database\n# https://docs.djangoproject.com/en/5.0/ref/settings/#databases\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DATABASES",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "DATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n# Password validation\n# https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators\nAUTH_PASSWORD_VALIDATORS = [\n    {",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_PASSWORD_VALIDATORS",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "AUTH_PASSWORD_VALIDATORS = [\n    {\n        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',\n    },\n    {\n        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',\n    },",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LANGUAGE_CODE",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "LANGUAGE_CODE = 'en-us'\nTIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nLOGIN_URL = 'userauths:sign-in'\nLOGOUT_REDIRECT_URL = 'userauths:sign-in'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "TIME_ZONE",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "TIME_ZONE = 'UTC'\nUSE_I18N = True\nUSE_TZ = True\nLOGIN_URL = 'userauths:sign-in'\nLOGOUT_REDIRECT_URL = 'userauths:sign-in'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_I18N",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\nLOGIN_URL = 'userauths:sign-in'\nLOGOUT_REDIRECT_URL = 'userauths:sign-in'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nMEDIA_URL = 'media/'",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "USE_TZ",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "USE_TZ = True\nLOGIN_URL = 'userauths:sign-in'\nLOGOUT_REDIRECT_URL = 'userauths:sign-in'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nMEDIA_URL = 'media/'\nMEDIA_ROOT =  os.path.join(BASE_DIR, 'media')",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGIN_URL",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "LOGIN_URL = 'userauths:sign-in'\nLOGOUT_REDIRECT_URL = 'userauths:sign-in'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nMEDIA_URL = 'media/'\nMEDIA_ROOT =  os.path.join(BASE_DIR, 'media')\n# Default primary key field type",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "LOGOUT_REDIRECT_URL",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "LOGOUT_REDIRECT_URL = 'userauths:sign-in'\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/5.0/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nMEDIA_URL = 'media/'\nMEDIA_ROOT =  os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_URL",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nMEDIA_URL = 'media/'\nMEDIA_ROOT =  os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'userauths.User'\nJAZZMIN_SETTINGS = {",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATIC_ROOT",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')\nSTATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nMEDIA_URL = 'media/'\nMEDIA_ROOT =  os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'userauths.User'\nJAZZMIN_SETTINGS = {\n    # title of the window (Will default to current_admin_site.site_title if absent or None)",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "STATICFILES_DIRS",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]\nMEDIA_URL = 'media/'\nMEDIA_ROOT =  os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'userauths.User'\nJAZZMIN_SETTINGS = {\n    # title of the window (Will default to current_admin_site.site_title if absent or None)\n    \"site_title\": \"Paylio\",",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_URL",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "MEDIA_URL = 'media/'\nMEDIA_ROOT =  os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'userauths.User'\nJAZZMIN_SETTINGS = {\n    # title of the window (Will default to current_admin_site.site_title if absent or None)\n    \"site_title\": \"Paylio\",\n    # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "MEDIA_ROOT",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "MEDIA_ROOT =  os.path.join(BASE_DIR, 'media')\n# Default primary key field type\n# https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'userauths.User'\nJAZZMIN_SETTINGS = {\n    # title of the window (Will default to current_admin_site.site_title if absent or None)\n    \"site_title\": \"Paylio\",\n    # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)\n    \"site_header\": \"Paylio\",",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "DEFAULT_AUTO_FIELD",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nAUTH_USER_MODEL = 'userauths.User'\nJAZZMIN_SETTINGS = {\n    # title of the window (Will default to current_admin_site.site_title if absent or None)\n    \"site_title\": \"Paylio\",\n    # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)\n    \"site_header\": \"Paylio\",\n    # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)\n    \"site_brand\": \"Paylio\",\n    # Logo to use for your site, must be present in static files, used for brand on top left",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "AUTH_USER_MODEL",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "AUTH_USER_MODEL = 'userauths.User'\nJAZZMIN_SETTINGS = {\n    # title of the window (Will default to current_admin_site.site_title if absent or None)\n    \"site_title\": \"Paylio\",\n    # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)\n    \"site_header\": \"Paylio\",\n    # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)\n    \"site_brand\": \"Paylio\",\n    # Logo to use for your site, must be present in static files, used for brand on top left\n    # \"site_logo\": \"assets/images/logo.png\",",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "JAZZMIN_SETTINGS",
+        "kind": 5,
+        "importPath": "findtech.settings",
+        "description": "findtech.settings",
+        "peekOfCode": "JAZZMIN_SETTINGS = {\n    # title of the window (Will default to current_admin_site.site_title if absent or None)\n    \"site_title\": \"Paylio\",\n    # Title on the login screen (19 chars max) (defaults to current_admin_site.site_header if absent or None)\n    \"site_header\": \"Paylio\",\n    # Title on the brand (19 chars max) (defaults to current_admin_site.site_header if absent or None)\n    \"site_brand\": \"Paylio\",\n    # Logo to use for your site, must be present in static files, used for brand on top left\n    # \"site_logo\": \"assets/images/logo.png\",\n    # Logo to use for your site, must be present in static files, used for login form logo (defaults to site_logo)",
+        "detail": "findtech.settings",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "findtech.urls",
+        "description": "findtech.urls",
+        "peekOfCode": "urlpatterns = [\n    path('admin/', admin.site.urls),\n    path('', include('core.urls')),\n    path('user/', include('userauths.urls')),\n    path('account/', include('account.urls')),\n]\nurlpatterns += static(settings.STATIC_URL,document_root=settings.STATIC_ROOT)\nurlpatterns += static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)",
+        "detail": "findtech.urls",
+        "documentation": {}
+    },
+    {
+        "label": "application",
+        "kind": 5,
+        "importPath": "findtech.wsgi",
+        "description": "findtech.wsgi",
+        "peekOfCode": "application = get_wsgi_application()",
+        "detail": "findtech.wsgi",
+        "documentation": {}
+    },
+    {
+        "label": "Migration",
+        "kind": 6,
+        "importPath": "userauths.migrations.0001_initial",
+        "description": "userauths.migrations.0001_initial",
+        "peekOfCode": "class Migration(migrations.Migration):\n    initial = True\n    dependencies = [\n        ('auth', '0012_alter_user_first_name_max_length'),\n    ]\n    operations = [\n        migrations.CreateModel(\n            name='User',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),",
+        "detail": "userauths.migrations.0001_initial",
+        "documentation": {}
+    },
+    {
+        "label": "UserauthsConfig",
+        "kind": 6,
+        "importPath": "userauths.apps",
+        "description": "userauths.apps",
+        "peekOfCode": "class UserauthsConfig(AppConfig):\n    default_auto_field = 'django.db.models.BigAutoField'\n    name = 'userauths'",
+        "detail": "userauths.apps",
+        "documentation": {}
+    },
+    {
+        "label": "UserRegisterForm",
+        "kind": 6,
+        "importPath": "userauths.forms",
+        "description": "userauths.forms",
+        "peekOfCode": "class UserRegisterForm(UserCreationForm):\n    username = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Enter Your Username'}))\n    email = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Enter Your Email'}))\n    password1 = forms.CharField(widget=forms.PasswordInput(attrs={'placeholder': 'Enter Your Password'}))\n    password2 = forms.CharField(widget=forms.PasswordInput(attrs={'placeholder': 'Enter Your Confirm Password'}))\n    class Meta:\n        model = User\n        fields = ['username', 'email', 'password1', 'password2']\nclass UserLoginForm(forms.Form):\n    email = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Enter Your Email'}))",
+        "detail": "userauths.forms",
+        "documentation": {}
+    },
+    {
+        "label": "UserLoginForm",
+        "kind": 6,
+        "importPath": "userauths.forms",
+        "description": "userauths.forms",
+        "peekOfCode": "class UserLoginForm(forms.Form):\n    email = forms.CharField(widget=forms.TextInput(attrs={'placeholder': 'Enter Your Email'}))\n    password = forms.CharField(widget=forms.PasswordInput(attrs={'placeholder': 'Enter Your Password'}))\n    def clean(self):\n        email = self.cleaned_data['email']\n        password = self.cleaned_data['password']\n        if email and password:\n            user = authenticate(email=email, password=password)\n            if not user:\n                raise forms.ValidationError('Email or password is incorrect')",
+        "detail": "userauths.forms",
+        "documentation": {}
+    },
+    {
+        "label": "User",
+        "kind": 6,
+        "importPath": "userauths.models",
+        "description": "userauths.models",
+        "peekOfCode": "class User(AbstractUser):\n    username = models.CharField(max_length=100)\n    email = models.EmailField(unique=True)\n    is_staff = models.BooleanField(default=False)\n    is_superuser = models.BooleanField(default=False)\n    USERNAME_FIELD = 'email'\n    REQUIRED_FIELDS = ['username']\n    def __str__(self) -> str:\n        return self.username",
+        "detail": "userauths.models",
+        "documentation": {}
+    },
+    {
+        "label": "app_name",
+        "kind": 5,
+        "importPath": "userauths.urls",
+        "description": "userauths.urls",
+        "peekOfCode": "app_name = 'userauths'\nurlpatterns = [\n    path('sign-up/', views.RegisterView, name='sign-up'),\n    path('sign-in/', views.LoginView, name='sign-in'),\n    path('sign-out/', views.LogoutView, name='sign-out'),\n]",
+        "detail": "userauths.urls",
+        "documentation": {}
+    },
+    {
+        "label": "urlpatterns",
+        "kind": 5,
+        "importPath": "userauths.urls",
+        "description": "userauths.urls",
+        "peekOfCode": "urlpatterns = [\n    path('sign-up/', views.RegisterView, name='sign-up'),\n    path('sign-in/', views.LoginView, name='sign-in'),\n    path('sign-out/', views.LogoutView, name='sign-out'),\n]",
+        "detail": "userauths.urls",
+        "documentation": {}
+    },
+    {
+        "label": "RegisterView",
+        "kind": 2,
+        "importPath": "userauths.views",
+        "description": "userauths.views",
+        "peekOfCode": "def RegisterView(request):\n    if request.user.is_authenticated:\n        messages.success(request, \"You are already logged in\")\n        return redirect('account:account')\n    if request.method == 'POST':\n        form = UserRegisterForm(request.POST)\n        if form.is_valid():\n            new_user = form.save()\n            email = form.cleaned_data['email']\n            password = form.cleaned_data['password1']",
+        "detail": "userauths.views",
+        "documentation": {}
+    },
+    {
+        "label": "LoginView",
+        "kind": 2,
+        "importPath": "userauths.views",
+        "description": "userauths.views",
+        "peekOfCode": "def LoginView(request):\n    if request.user.is_authenticated:\n        messages.success(request, \"You are already logged in\")\n        return redirect('account:account')\n    form = UserLoginForm(request.POST or None)\n    if form.is_valid():\n        email = form.cleaned_data.get('email')\n        password = form.cleaned_data.get('password')\n        user = authenticate(email=email, password=password)\n        if user is not None:",
+        "detail": "userauths.views",
+        "documentation": {}
+    },
+    {
+        "label": "LogoutView",
+        "kind": 2,
+        "importPath": "userauths.views",
+        "description": "userauths.views",
+        "peekOfCode": "def LogoutView(request):\n    logout(request)\n    messages.success(request, \"You have been logged out\")\n    return redirect('userauths:sign-in')",
+        "detail": "userauths.views",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "manage",
+        "description": "manage",
+        "peekOfCode": "def main():\n    \"\"\"Run administrative tasks.\"\"\"\n    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'findtech.settings')\n    try:\n        from django.core.management import execute_from_command_line\n    except ImportError as exc:\n        raise ImportError(\n            \"Couldn't import Django. Are you sure it's installed and \"\n            \"available on your PYTHONPATH environment variable? Did you \"\n            \"forget to activate a virtual environment?\"",
+        "detail": "manage",
+        "documentation": {}
+    }
+]
