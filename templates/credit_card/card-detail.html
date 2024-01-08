@@ -1,0 +1,90 @@
+{% load static %}
+{% load humanize %}
+<div class="row">
+    <div class="col-sm-4 text-center" style="padding: 50px 47px;">
+        <div id="ccard-demo" class="ccard ccard-detail" data-card-id="{{ c.card_id }}" style="width: 230px; height: 130px;">
+            <div class="charge-name-wrapper">
+                <div class="charge-name-text">{{ credit_card.card_type_verbose|upper }}</div>
+            </div>
+            
+            <div class="card-name-wrapper">
+                <div class="card-name">
+                    {{ credit_card.name }}
+                </div>
+                <div class="card-name" style="margin-top: 28px; color: #971717;">
+                    ${{ credit_card.amount|intcomma }}
+                </div>
+                
+                <div class="card-name-foil">
+                    {{ credit_card.name }}
+                </div>
+                
+                <div class="card-name-foil-second">
+                    {{ credit_card.name }}
+                </div>
+            </div>
+            
+            <div class="number-wrapper">
+                <div class="card-number">
+                    {{ credit_card.number }}
+                </div>
+            </div>
+            
+            <div class="card-valid-warpper">
+                <div class="card-valid-date-left">
+                    <span class="valid-text">Valid Date:</span> {{ credit_card.month }}/{{ credit_card.year }}
+                </div>
+                <div class="card-valid-date-right">
+                    <span class="valid-text">CVV:</span> {{ credit_card.cvv }}
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-8">
+        <div class="right-area">
+            <h6>Credit Card Details</h6>
+            <ul class="payment-details">
+                <li>
+                    <span>Card Holder</span>
+                    <span>{{ credit_card.name }}</span>
+                </li>
+                <li>
+                    <span>Card Type</span>
+                    <span>{{ credit_card.card_type_verbose|upper }}</span>
+                </li>
+                <li>
+                    <span>Card Number</span>
+                    <span>{{ credit_card.number }}</span>
+                </li>
+                <li>
+                    <span>Valid Date</span>
+                    <span>{{ credit_card.month }}/{{ credit_card.year }}</span>
+                </li>
+                <li>
+                    <span>CVV</span>
+                    <span>{{ credit_card.cvv }}</span>
+                </li>
+                <li>
+                    <span>Current Amount</span>
+                    <span><b>{{ credit_card.amount|intcomma }} USD</b></span>
+                </li>
+                <li>
+                   <div class="row" style="width: 100%;">
+                        <a href="javascript:void(0)" class="cmn-btn" style="padding: unset;width: 24%;margin-left: 56px;">Fund Card</a>
+                        <a href="javascript:void(0)" class="cmn-btn" style="padding: unset;width: 24%;margin-left: 10px;">Withdraw</a>
+                        <a href="javascript:void(0)" class="cmn-btn" style="padding: unset;width: 24%;margin-left: 10px;">Delete Card</a>
+                        <!-- <div class="col-7">
+                            <a href="javascript:void(0)" class="cmn-btn">Fund Card</a>
+                        </div>
+                        <div class="col-5">
+                            <a href="javascript:void(0)" class="cmn-btn">Withdraw</a>
+                        </div> -->
+                   </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+    

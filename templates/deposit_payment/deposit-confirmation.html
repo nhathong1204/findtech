@@ -1,0 +1,110 @@
+{% extends 'partials/dashboard_base.html' %}
+{% load static %}
+{% load humanize %}
+{% block content %}
+    <!-- Dashboard Section start -->
+    <section class="dashboard-section body-collapse pay step step-3 crypto deposit-money">
+        <div class="overlay pt-120">
+            <div class="container-fruid">
+                <div class="main-content">
+                    <div class="head-area d-flex align-items-center justify-content-between">
+                        <h4>Deposit Money</h4>
+                        <div class="icon-area">
+                            <img src="{% static 'dashboard/images/icon/support-icon.png' %}" alt="icon">
+                        </div>
+                    </div>
+                    <div class="row justify-content-between pb-120">
+                        <div class="col-xl-3 col-lg-4">
+                            <div class="left-area">
+                                <ul>
+                                    <li><a href="{% url 'core:deposit-list-payments' %}" class="single-link active">Choose Payment Method</a></li>
+                                    <li><a href="{% url 'core:deposit-process' credit_card.card_id %}" class="single-link active">Enter amount</a></li>
+                                    <li><a href="javascript:void(0)"  class="single-link last active">Confirm Order</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8">
+                            <form action="#">
+                                <div class="payment-details">
+                                    <div class="top-area">
+                                        <h6>Confirm  account & amount</h6>
+                                        <div class="right">
+                                            <a href="javascript:void(0)">
+                                                <i class="icon-h-edit"></i>
+                                                Edit
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xxl-8 col-xl-9 col-lg-12">
+                                            <ul class="details-list">
+                                                <li>
+                                                    <span>Payment System</span>
+                                                    <b>{{ credit_card.card_type_verbose }}</b>
+                                                </li>
+                                                <li>
+                                                    <span>Paypal Payment Card</span>
+                                                    <b>{{ credit_card.number }}</b>
+                                                </li>
+                                                <li>
+                                                    <span>You will receive</span>
+                                                    <b>{{ deposit_amount|intcomma }} USD</b>
+                                                </li>
+                                                <li>
+                                                    <span>Fee</span>
+                                                    <b>Free</b>
+                                                </li>
+                                                <li>
+                                                    <span>E-mail</span>
+                                                    <b>{{ account.user.email }}</a></b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="checkbox-area mt-40 d-flex align-items-center justify-content-center">
+                                    <input type="checkbox" id="accept" name="accept">
+                                    <label for="accept">I accept <a href="javascript:void(0)">terms of use</a></label>
+                                </div> -->
+                                <div class="footer-area mt-40">
+                                    <a href="{% url 'core:deposit-process' credit_card.card_id %}">Previous Step</a>
+                                    <a data-amount-value="{{ deposit_amount }}" data-credit-card-id="{{ credit_card.card_id }}" id="submitDepositFinal" href="javascript:void(0)" class="active" >Next</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dashboard Section end -->
+
+    <!-- Congratulations Popup start -->
+    <div class="congratulations-popup purchased-popup">
+        <div class="container-fruid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="modal fade" id="congratulationsDeposit" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                </div>
+                                <div class="main-content text-center pt-120 pb-120">
+                                    <img class="mb-60" src="{% static 'dashboard/images/icon/success.png' %}" alt="icon">
+                                    <h4 class="mb-30">Congratulations</h4>
+                                    <p>You have successfully add fund your account for ${{ deposit_amount|intcomma }} USD</p>
+                                    <a href="{% url 'account:dashboard' %}" class="mt-40">Back to Dashboard</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Congratulations Popup start -->
+{% endblock content %}
+
+
+    

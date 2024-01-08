@@ -1,0 +1,66 @@
+{% extends 'partials/dashboard_base.html' %}
+{% load static %}
+{% load humanize %}
+{% block content %}
+    <!-- Dashboard Section start -->
+    <section class="dashboard-section body-collapse pay step deposit-money withdraw-money">
+        <div class="overlay pt-120">
+            <div class="container-fruid">
+                <div class="main-content">
+                    <div class="head-area d-flex align-items-center justify-content-between">
+                        <h4>Withdraw Funds</h4>
+                        <div class="icon-area">
+                            <img src="{% static 'dashboard/images/icon/support-icon.png' %}" alt="icon">
+                        </div>
+                    </div>
+                    <div class="choose-recipient">
+                        <div class="step-area">
+                            <span class="mdr">Step 2 of 3</span>
+                            <h5>Set Amount of transfer</h5>
+                        </div>
+                    </div>
+                    <form action="" method="POST">
+                        {% csrf_token %}
+                        <div class="row pb-120">
+                            <div class="col-md-7">
+                                <div class="table-area">
+                                    <div class="send-banance">
+                                        <span class="mdr">How much you want to add?</span>
+                                        <div class="input-area">
+                                            <input class="xxlr" placeholder="400.00" onkeyup="CalculateBalance()" id="withdraw-amount" name="withdraw-amount" type="number" required>
+                                            <select>
+                                                <option value="1">USD</option>
+                                                <option value="2">USD</option>
+                                                <option value="3">USD</option>
+                                            </select>
+                                        </div>
+                                        <p>Available Balance<b>${{ credit_card.amount|intcomma }}</b></p>
+                                    </div>
+                                </div>
+                                <script>
+                                    function CalculateBalance() {
+                                        let available_balance = "{{ credit_card.amount }}"
+                                        let withDrawAmount = document.getElementById("withdraw-amount").value
+                                        new_balance_val = available_balance - withDrawAmount
+                                        if(new_balance_val < 0) {
+                                            alert('You can only send $'+ available_balance.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","))
+                                            document.getElementById("withdraw-amount").value = ''
+                                        }
+                                    }
+                                </script>
+                                <div class="footer-area mt-40">
+                                    <a href="{% url 'core:withdraw-list-payments' %}">Previous Step</a>
+                                    <button type="submit" style="padding: 12px 40px; border-radius: 20px; background: #5732C6; border: 1px solid #DDE8FF; color: #fff" class="active">Next</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dashboard Section end -->
+{% endblock content %}
+
+
+    

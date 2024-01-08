@@ -1,0 +1,406 @@
+{% extends 'partials/dashboard_base.html' %}
+{% load static %}
+{% load humanize %}
+{% block content %}
+    <!-- Dashboard Section start -->
+    <section class="dashboard-section body-collapse pay step deposit-money withdraw-money">
+        <div class="overlay pt-120">
+            <div class="container-fruid">
+                <div class="main-content">
+                    <div class="head-area d-flex align-items-center justify-content-between">
+                        <h4>Withdraw Funds</h4>
+                        <div class="icon-area">
+                            <img src="{% static 'dashboard/images/icon/support-icon.png' %}" alt="icon">
+                        </div>
+                    </div>
+                    <div class="choose-recipient">
+                        <div class="step-area">
+                            <span class="mdr">Step 1 of 3</span>
+                            <h5>Choose Recipient</h5>
+                        </div>
+                        <div class="recipient-list">
+                            <button class="my-recipients">
+                                <span class="icon-area">
+                                    <i class="icon-f-user"></i>
+                                </span>
+                                <span>My Recipients</span>
+                            </button>
+                            <button data-bs-toggle="modal" data-bs-target="#recipientsMod">
+                                <span class="icon-area">
+                                    <i class="icon-e-plus"></i>
+                                </span>
+                                <span>New Recipients</span>
+                            </button>
+                            <button class="active">
+                                <span class="icon-area">
+                                    <i class="icon-f-user"></i>
+                                </span>
+                                <span>Send to myself</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="row pb-120">
+                        <div class="col-md-8">
+                            <div class="table-area">
+                                <div class="head-item">
+                                    <h6>Linked Payment system</h6>
+                                </div>
+                                <div class="card-area d-flex flex-wrap">
+                                    {% for c in credits %}
+                                        <div class="single-card">
+                                            <input type="radio" 
+                                            {% if forloop.counter == 1 %}
+                                                checked 
+                                            {% endif %}
+                                            
+                                            name="cardSelect" class="chkboxWithdraw"  id="{{ c.card_id }}"/>
+                                            <label for="{{ c.card_id }}">
+                                                <span class="wrapper"></span>
+                                                <div id="ccard-demo" class="ccard" data-card-id="{{ c.card_id }}">
+                                                    <div class="charge-name-wrapper">
+                                                        <div class="charge-name-text">{{ c.card_type_verbose|upper }}</div>
+                                                    </div>
+                                                    
+                                                    <div class="card-name-wrapper">
+                                                        <div class="card-name">
+                                                            {{ c.name }}
+                                                        </div>
+                                                        <div class="card-name" style="margin-top: 28px; color: #971717;">
+                                                            ${{ c.amount|intcomma }}
+                                                        </div>
+                                                        
+                                                        <div class="card-name-foil">
+                                                            {{ c.name }}
+                                                        </div>
+                                                        
+                                                        <div class="card-name-foil-second">
+                                                            {{ c.name }}
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="number-wrapper">
+                                                        <div class="card-number">
+                                                            {{ c.number }}
+                                                        </div>
+                                                    </div>
+                                                    
+                                                    <div class="card-valid-warpper">
+                                                        <div class="card-valid-date-left">
+                                                            <span class="valid-text">Valid Date:</span> {{ c.month }}/{{ c.year }}
+                                                        </div>
+                                                        <div class="card-valid-date-right">
+                                                            <span class="valid-text">CVV:</span> {{ c.cvv }}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                    {% endfor %}
+                                    <div class="single-card">
+                                        <button type="button" class="reg w-100 p-0" data-bs-toggle="modal" data-bs-target="#addcardMod">
+                                            <img src="{% static 'dashboard/images/add-new.png' %}" alt="image" class="w-100">
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer-area mt-40">
+                                <a href="javascript:void(0)" id="nextWithDraw" class="active">Next</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dashboard Section end -->
+    
+    <!-- Transfer Popup start -->
+    <div class="transfer-popup">
+        <div class="container-fruid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="modal fade" id="transferMod" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <ul class="nav nav-tabs d-none" role="tablist">
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link active" id="transfer-tab" data-bs-toggle="tab"
+                                        data-bs-target="#transfer" type="button" role="tab" aria-controls="transfer"
+                                        aria-selected="true">transfer</button>
+                                </li>
+                                <li class="nav-item" role="presentation">
+                                    <button class="nav-link" id="success-tab" data-bs-toggle="tab"
+                                        data-bs-target="#success" type="button" role="tab" aria-controls="success"
+                                        aria-selected="false">Confirm</button>
+                                </li>
+                            </ul>
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="transfer" role="tabpanel" aria-labelledby="transfer-tab">
+                                    <div class="modal-content">
+                                        <div class="modal-header mb-60 justify-content-between">
+                                            <a href="javascript:void(0)">
+                                                <i class="icon-a-left-arrow"></i>
+                                                Back
+                                            </a>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                        </div>
+                                        <div class="main-content">
+                                            <h4>Confirm Transfer!</h4>
+                                            <p>We have sent a verification code on your phone + Number  +44831***932. Please enter verification code below</p>
+                                            <form action="javascript:void(0)">
+                                                <div class="userInput">
+                                                    <input type="text">
+                                                    <input type="text">
+                                                    <input type="text">
+                                                    <input type="text">
+                                                </div>
+                                                <a href="javascript:void(0)">Don’t receive a code?</a>
+                                                <button class="mt-60 confirm">Confirm</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="success" role="tabpanel" aria-labelledby="success-tab">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="btn-close d-md-none d-block" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                        </div>
+                                        <div class="main-content text-center pt-120 pb-120">
+                                            <img src="{% static 'dashboard/images/icon/success.png' %}" alt="icon">
+                                            <h3>Success</h3>
+                                            <p>Transfer was completed.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Transfer Popup start -->
+
+    <!-- Add Card Popup start -->
+    <div class="add-card">
+        <div class="container-fruid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="modal fade" id="addcardMod" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header justify-content-between">
+                                    <h6>Add Card</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                </div>
+                                <form action="#">
+                                    <div class="row justify-content-center">
+                                        <div class="col-md-12">
+                                            <div class="single-input">
+                                                <label for="cardNumber">Card Number</label>
+                                                <input type="text" id="cardNumber" placeholder="5890 - 6858 - 6332 - 9843">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-12">
+                                            <div class="single-input">
+                                                <label for="cardHolder">Card Holder</label>
+                                                <input type="text" id="cardHolder" placeholder="Alfred Davis">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-input">
+                                                <label for="month">Month</label>
+                                                <input type="text" id="month" placeholder="12">
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <div class="single-input">
+                                                <label for="year">Year</label>
+                                                <input type="text" id="year" placeholder="2025">
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="btn-border w-100">
+                                                <button class="cmn-btn w-100">Add Card</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Add Card Popup start -->
+
+    <!-- Add Recipients Popup start -->
+    <div class="add-recipients">
+        <div class="container-fruid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="modal fade" id="recipientsMod" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header justify-content-between">
+                                    <h6>Add Recipients</h6>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                </div>
+                                <ul class="nav nav-tabs" role="tablist">
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link active" id="company-tab" data-bs-toggle="tab"
+                                            data-bs-target="#company" type="button" role="tab" aria-controls="company"
+                                            aria-selected="true">
+                                            <span class="icon-area">
+                                                <img src="{% static 'dashboard/images/icon/company-icon.png' %}" alt="icon">
+                                            </span>
+                                            Company
+                                        </button>
+                                    </li>
+                                    <li class="nav-item" role="presentation">
+                                        <button class="nav-link" id="individual-tab" data-bs-toggle="tab"
+                                            data-bs-target="#individual" type="button" role="tab" aria-controls="individual"
+                                            aria-selected="false">
+                                            <span class="icon-area">
+                                                <img src="{% static 'dashboard/images/icon/individual-icon.png' %}" alt="icon">
+                                            </span>
+                                            Individual
+                                        </button>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade show active" id="company" role="tabpanel" aria-labelledby="company-tab">
+                                        <div class="image-area mt-30 text-center">
+                                            <img src="{% static 'dashboard/images/icon/add-recipients.png' %}" alt="icon">
+                                        </div>
+                                        <form action="#">
+                                            <div class="row justify-content-center">
+                                                <div class="col-md-12">
+                                                    <div class="single-input">
+                                                        <label for="companyName">Company Name</label>
+                                                        <input type="text" id="companyName" placeholder="xtechlab">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="single-input">
+                                                        <label for="companyfname">First Name</label>
+                                                        <input type="text" id="companyfname" placeholder="Dana">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="single-input">
+                                                        <label for="companylname">Last Name</label>
+                                                        <input type="text" id="companylname" placeholder="Patton">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="single-input">
+                                                        <label for="companyemail">Email</label>
+                                                        <input type="text" id="companyemail" placeholder="danap24@gmail.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="single-input">
+                                                        <label for="companyphone">Phone</label>
+                                                        <div class="select-area d-flex align-items-center">
+                                                            <select>
+                                                                <option value="1">+1</option>
+                                                                <option value="2">+2</option>
+                                                                <option value="3">+3</option>
+                                                            </select>
+                                                            <input type="text" id="companyphone" placeholder="(070) 4567-8800">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="single-input">
+                                                        <label>Select Country</label>
+                                                        <select>
+                                                            <option value="1">Canada</option>
+                                                            <option value="2">Japan</option>
+                                                            <option value="3">Germany</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="btn-border w-100">
+                                                        <button class="cmn-btn w-100">Add Recipients</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="tab-pane fade" id="individual" role="tabpanel" aria-labelledby="individual-tab">
+                                        <div class="image-area mt-30 text-center">
+                                            <img src="{% static 'dashboard/images/icon/add-recipients.png' %}" alt="icon">
+                                        </div>
+                                        <form action="#">
+                                            <div class="row justify-content-center">
+                                                <div class="col-md-12">
+                                                    <div class="single-input">
+                                                        <label for="individualName">Individual Name</label>
+                                                        <input type="text" id="individualName" placeholder="xtechlab">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="single-input">
+                                                        <label for="fname">First Name</label>
+                                                        <input type="text" id="fname" placeholder="Dana">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="single-input">
+                                                        <label for="lname">Last Name</label>
+                                                        <input type="text" id="lname" placeholder="Patton">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="single-input">
+                                                        <label for="email">Email</label>
+                                                        <input type="text" id="email" placeholder="danap24@gmail.com">
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-12">
+                                                    <div class="single-input">
+                                                        <label for="phone">Phone</label>
+                                                        <div class="select-area d-flex align-items-center">
+                                                            <select>
+                                                                <option value="1">+1</option>
+                                                                <option value="2">+2</option>
+                                                                <option value="3">+3</option>
+                                                            </select>
+                                                            <input type="text" id="phone" placeholder="(070) 4567-8800">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="single-input">
+                                                        <label>Select Country</label>
+                                                        <select>
+                                                            <option value="1">Canada</option>
+                                                            <option value="2">Japan</option>
+                                                            <option value="3">Germany</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <div class="btn-border w-100">
+                                                        <button class="cmn-btn w-100">Add Recipients</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Transactions Popup start -->
+{% endblock content %}
+
+
+    

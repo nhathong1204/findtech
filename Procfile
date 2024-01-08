@@ -1,0 +1,1 @@
+web: gunicorn findtech.wsgi --log-file -

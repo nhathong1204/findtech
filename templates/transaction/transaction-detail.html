@@ -1,0 +1,66 @@
+{% load static %}
+{% load humanize %}
+<div class="row">
+    <div class="col-sm-5 text-center">
+        <div class="icon-area">
+            <img src="{{ transaction.receiver.kyc.image.url }}" style="width: 100px; height: 100px; border-radius: 50%; object-fit: cover;">
+        </div>
+        <div class="text-area">
+            <h3>{{ transaction.amount|intcomma }} USD</h3>
+            <!-- <h6>Sender: {{ transaction.sender.kyc.full_name }}</h6>
+            <h6 class="mt-2">Receiver: {{ transaction.receiver.kyc.full_name }}</h6> -->
+            <p>{{ transaction.date }}</p>
+            <p
+            {% if transaction.status == 'completed' %}
+                style="color: #49C96D;"
+            {% elif transaction.status == 'failed' %}
+                style="color: #E9687F;"
+            {% elif transaction.status == 'pending' %}
+                style="color: #F7A94A;"
+            {% else %}
+                style="color: #DBAF14;"
+            {% endif %}
+            >{{ transaction.status_verbose }}</p>
+        </div>
+    </div>
+    <div class="col-sm-7">
+        <div class="right-area">
+            <h6>Transaction Details</h6>
+            <ul class="payment-details">
+                <li>
+                    <span>Payment Amount</span>
+                    <span>{{ transaction.amount|intcomma }} USD</span>
+                </li>
+                <li>
+                    <span>Fee</span>
+                    <span>Free USD</span>
+                </li>
+                <li>
+                    <span>Total Amount</span>
+                    <span>{{ transaction.amount|intcomma }} USD</span>
+                </li>
+            </ul>
+            <ul class="payment-info">
+                <li>
+                    <p>Payment From</p>
+                    <span class="mdr">{{ transaction.sender.kyc.full_name }}</span>
+                </li>
+                <li>
+                    <p>Payment To</p>
+                    <span class="mdr">{{ transaction.receiver.kyc.full_name }}</span>
+                </li>
+                <li>
+                    <p>Payment Description</p>
+                    <span class="mdr">{{ transaction.description }}</span>
+                </li>
+                <li>
+                    <p>Transaction  ID:</p>
+                    <span class="mdr">{{ transaction.transaction_id }}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+    

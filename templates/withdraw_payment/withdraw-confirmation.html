@@ -1,0 +1,107 @@
+{% extends 'partials/dashboard_base.html' %}
+{% load static %}
+{% load humanize %}
+{% block content %}
+    <!-- Dashboard Section start -->
+    <section class="dashboard-section body-collapse pay step step-3 deposit-money withdraw-money">
+        <div class="overlay pt-120">
+            <div class="container-fruid">
+                <div class="main-content">
+                    <div class="head-area d-flex align-items-center justify-content-between">
+                        <h4>Withdraw Funds</h4>
+                        <div class="icon-area">
+                            <img src="{% static 'dashboard/images/icon/support-icon.png' %}" alt="icon">
+                        </div>
+                    </div>
+                    <div class="choose-recipient">
+                        <div class="step-area">
+                            <span class="mdr">Step 3 of 3</span>
+                            <h5>Set Amount of transfer</h5>
+                        </div>
+                    </div>
+                    <div class="row pb-120">
+                        <div class="col-lg-8 col-md-10">
+                            <form action="#">
+                                <div class="payment-details">
+                                    <div class="top-area">
+                                        <h6>Confirm  account & amount</h6>
+                                        <div class="right">
+                                            <a href="javascript:void(0)">
+                                                <i class="icon-h-edit"></i>
+                                                Edit
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-xxl-8 col-xl-10 col-12">
+                                            <ul class="details-list">
+                                                <li>
+                                                    <span>Payment System</span>
+                                                    <b>{{ credit_card.card_type_verbose }}</b>
+                                                </li>
+                                                <li>
+                                                    <span>Paypal Payment Card</span>
+                                                    <b>{{ credit_card.number }}</b>
+                                                </li>
+                                                <li>
+                                                    <span>You will receive</span>
+                                                    <b>{{ withdraw_amount|intcomma }} USD</b>
+                                                </li>
+                                                <li>
+                                                    <span>Fee</span>
+                                                    <b>Free</b>
+                                                </li>
+                                                <li>
+                                                    <span>E-mail</span>
+                                                    <b>{{ account.user.email }}</a></b>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- <div class="checkbox-area mt-40 d-flex align-items-center justify-content-center">
+                                    <input type="checkbox" id="accept" name="accept">
+                                    <label for="accept">I accept <a href="javascript:void(0)">terms of use</a></label>
+                                </div> -->
+                                <div class="footer-area mt-40">
+                                    <a href="{% url 'core:withdraw-process' credit_card.card_id %}">Previous Step</a>
+                                    <a data-amount-value="{{ withdraw_amount }}" data-credit-card-id="{{ credit_card.card_id }}" id="submitWithDrawFinal" href="javascript:void(0)" class="active" >Next</a>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Dashboard Section end -->
+    
+    <!-- Congratulations Popup start -->
+    <div class="congratulations-popup purchased-popup">
+        <div class="container-fruid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="modal fade" id="congratulationsWithDraw" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+                                </div>
+                                <div class="main-content text-center pt-120 pb-120">
+                                    <img class="mb-60" src="{% static 'dashboard/images/icon/success.png' %}" alt="icon">
+                                    <h4 class="mb-30">Congratulations</h4>
+                                    <p>You have successfully add fund your account for ${{ withdraw_amount|intcomma }} USD</p>
+                                    <a href="{% url 'account:dashboard' %}" class="mt-40">Back to Dashboard</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Congratulations Popup start -->
+{% endblock content %}
+
+
+    
